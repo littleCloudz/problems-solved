@@ -63,7 +63,7 @@ markdown 中如果遇到有字符与原有语法冲突
    * 使用html添加锚点  
       * 本地gitbook可以  
       * 线上新版本GitBook无效（https://little-cloudz.gitbook.io/sparks-frontend/20200429#anchor1)
-      * 旧版GitBook gitbooks.io域名下可以（https://hltj.gitbooks.io/sandbox/content/index.html）
+      * 旧版GitBook gitbooks.io域名下可以https://hltj.gitbooks.io/sandbox/content/index.html
         ```
         触发锚点：[1](#anchor1) 
         
