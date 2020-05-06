@@ -29,7 +29,7 @@ markdown 中如果遇到有字符与原有语法冲突
    * ```
 
 
-* gitbook自定义颜色
+* gitbook自定义颜色  
 在book.json中配置：
 ```
  "styles": {
@@ -61,6 +61,7 @@ markdown 中如果遇到有字符与原有语法冲突
             }
        }
       ```
+      * [page-treeview](https://segmentfault.com/a/1190000019806829?utm_source=tag-newest)
 
 * 安装插件
    * 根目录 node_modules 文件下能看到安装那些插件。
@@ -99,9 +100,21 @@ markdown 中如果遇到有字符与原有语法冲突
    * [vuepress](https://www.vuepress.cn/)构建笔记
  
  
+ * Paste images into MarkDown——[IntelliJ IDEA markDown文件上传截图插件](https://www.jianshu.com/p/499c48f5de22)
+ 
+ * gitbook markdwon 表格隐藏表头
+    * markdown语法
+    
+     |a|b|c|
+     |:---|:---:|---:|
+     |e|f|g| 
+     
+     :标记对齐方式
+
+    * html标签 
  
  
- 
+ * idea设置markdown缩进3个空格
  
  
 
