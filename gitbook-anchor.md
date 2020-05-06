@@ -69,10 +69,11 @@ markdown 中如果遇到有字符与原有语法冲突
         
         锚点位置：<div id="anchor1"></div>
         ```
-     * 使用Anchors插件 - 添加 Github 风格的锚点
-     * [gitbook-plugin-anchor-navigation-expand](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-expand)
-     * [gitbook-plugin-anchor-navigation-ex-custom](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-ex-custom)  
-        停更
-     * [vuepress](https://www.vuepress.cn/)构建笔记
+ 
+ * 使用Anchors插件 - 添加 Github 风格的锚点
+ * [gitbook-plugin-anchor-navigation-expand](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-expand)
+ * [gitbook-plugin-anchor-navigation-ex-custom](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-ex-custom)  
+    停更
+ * [vuepress](https://www.vuepress.cn/)构建笔记
 
 
