@@ -29,19 +29,38 @@ markdown 中如果遇到有字符与原有语法冲突
    * ```
 
 
+* gitbook自定义颜色
+在book.json中配置：
+```
+ "styles": {
+    "website": "styles/website.css"
+  }
+```
+
 * 安装gitbook
     ```
     $ npm install gitbook-cli -g
     ```
 
-* 默认插件  
-    默认带有 5 个插件：
-    1. highlight
-    2. search
-    3. sharing
-    4. font-settings
-    5. livereload
-
+* 插件
+   * 默认插件  
+    默认带有 5 个插件：highlight、search、sharing、font-settings、livereload
+    * 其他
+       * [gitbook-plugin-theme-comscore](https://www.npmjs.com/package/gitbook-plugin-theme-comscore)  
+       github停更
+       * [fontsettings](https://github.com/GitbookIO/plugin-fontsettings)  
+       没有安装插件，也可以直接配置使用
+       ```
+       {
+            "pluginConfig": {
+                "fontsettings": {
+                    "theme": "white", // sepia, night, white
+                    "family": "serif", // serif, sans
+                    "size": 2 // 1-4      
+                }   
+            }
+       }
+      ```
 
 * 安装插件
    * 根目录 node_modules 文件下能看到安装那些插件。
@@ -53,8 +72,11 @@ markdown 中如果遇到有字符与原有语法冲突
         $ npm install gitbook-plugin-anchor-navigation-ex --save
         ```
 
+* 卸载插件  
+  删除配置文件book.json中的相应插件配置即可
+
 * 本地预览
-   * 进入你的 GitBook 书籍目录，右击 - 服务 - 新建位于文件夹位置的终端窗口，输入命令行：
+   * 进入你的 GitBook 书籍目录，右击 - 服务 - 新建位于   文件夹位置的终端窗口，输入命令行：
        ```
        $ gitbook serve
        ```
@@ -62,18 +84,25 @@ markdown 中如果遇到有字符与原有语法冲突
 * 添加锚点
    * 使用html添加锚点  
       * 本地gitbook可以  
-      * 线上新版本GitBook无效（https://little-cloudz.gitbook.io/sparks-frontend/20200429#anchor1)
-      * 旧版GitBook gitbooks.io域名下可以https://hltj.gitbooks.io/sandbox/content/index.html
+      * 线上新版本V3 GitBook无效（https://little-cloudz.gitbook.io/sparks-frontend/20200429#anchor1)
+      * 旧版V2 GitBook gitbooks.io域名下可以https://hltj.gitbooks.io/sandbox/content/index.html
         ```
         触发锚点：[1](#anchor1) 
         
         锚点位置：<div id="anchor1"></div>
         ```
  
- * 使用Anchors插件 - 添加 Github 风格的锚点
- * [gitbook-plugin-anchor-navigation-expand](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-expand)
- * [gitbook-plugin-anchor-navigation-ex-custom](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-ex-custom)  
-    停更
- * [vuepress](https://www.vuepress.cn/)构建笔记
+   * 使用Anchors插件 - 添加 Github 风格的锚点
+   * [gitbook-plugin-anchor-navigation-expand](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-expand)
+   * [gitbook-plugin-anchor-navigation-ex-custom](https://www.npmjs.com/package/gitbook-plugin-anchor-navigation-ex-custom)  
+   停更
+   * [vuepress](https://www.vuepress.cn/)构建笔记
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
