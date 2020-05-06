@@ -1,7 +1,32 @@
 #### gitbook如何添加锚点，在同一页面内跳转？  
 
 
-[目录结构·gitbook使用教程](http://gitbook.zhangjikai.com/structure.html)
+* [目录结构·gitbook使用教程](http://gitbook.zhangjikai.com/structure.html)
+
+   * 在GitBook官网新建space
+   * 概要文件主要存放 GitBook 的文件目录信息，左侧的目录就是根据这个文件来生成的，默认对应的文件是 SUMMARY.md，可以在 book.json 重新定义该文件的对应值。
+        ```
+        {
+            "structure": {
+                "readme": "SUMMARY.md"
+            }
+        }
+        ```
+   * SUMMARY.md通过 Markdown 中的列表语法来表示文件的父子关系
+        ```
+        #SUMMARY.md 
+        * [首页](README.md)  
+           * [子页面1](chp01/x1.md)
+           * [子页面2](chp02/x2.md) 
+      ```  
+    
+    
+
+* Markdown中如何让# * >等符号原样显示，不被解析成对应的Markdown语法  
+markdown 中如果遇到有字符与原有语法冲突
+   * 可以使用反斜杠（'\'）转义
+   * 可以使用反引号"`"包裹需要转移的内容
+   * ```
 
 
 * 安装gitbook
