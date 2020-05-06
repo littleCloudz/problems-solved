@@ -1,3 +1,2 @@
-# problems-solved
-record the problems solved in programming
+# Initial page
 
