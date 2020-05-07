@@ -44,7 +44,7 @@ markdown 中如果遇到有字符与原有语法冲突
 
 * 插件
    * 默认插件  
-    默认带有 5 个插件：highlight、search、sharing、font-settings、livereload
+    默认带有 5 个插件：highlight(代码高亮)、search、sharing、font-settings、livereload
     * 其他
        * [gitbook-plugin-theme-comscore](https://www.npmjs.com/package/gitbook-plugin-theme-comscore)  
        github停更
@@ -116,6 +116,8 @@ markdown 中如果遇到有字符与原有语法冲突
  
  * idea设置markdown缩进3个空格
  
+ 
+ * gitbook跳转本地网页打不开
  
 
 
